@@ -25,7 +25,7 @@ boot || goto custom_exit
 
 :option_two
 kernel https://boot.netboot.xyz/memdisk raw iso
-initrd https://www.proxmox.com/en/downloads?task=callelement&format=raw&item_id=551&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=8834a7495c95fa05221093958b12b1ff
+initrd http://download.proxmox.com/iso/proxmox-ve_6.3-1.iso
 boot || goto custom_exit
 
 :option_three
